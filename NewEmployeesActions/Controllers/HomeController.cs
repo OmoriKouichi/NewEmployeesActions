@@ -9,6 +9,8 @@ using NewEmployeesActions.Models;
 
 namespace NewEmployeesActions.Controllers
 {
+    //これはコメントです
+    //commentcomment
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
