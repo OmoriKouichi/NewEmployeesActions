@@ -7,5 +7,7 @@ namespace NewEmployeesActions.Models
         public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+
+        //ここにコメントを追加した
     }
 }
