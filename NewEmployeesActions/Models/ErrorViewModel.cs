@@ -2,9 +2,6 @@
 
 namespace NewEmployeesActions.Models
 {
-
-    //TestComment and marge
-    //さらにコミットテスト
     public class ErrorViewModel
     {
         public string RequestId { get; set; }
