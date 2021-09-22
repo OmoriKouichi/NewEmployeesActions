@@ -13,6 +13,8 @@ namespace NewEmployeesActions.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        //コミットテストとプッシュテスト
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
