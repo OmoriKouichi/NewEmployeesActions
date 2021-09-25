@@ -7,11 +7,17 @@
   <ItemGroup>
     <None Remove="sqlite-net-pcl" />
     <None Remove="Data\" />
+    <None Remove="System.Data.SQLite" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\Downloads\sqlite-netFx451-static-binary-x64-2013-1.0.115.0\System.Data.SQLite.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
