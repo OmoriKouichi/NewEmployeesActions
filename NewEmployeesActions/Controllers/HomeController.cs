@@ -11,6 +11,7 @@ namespace NewEmployeesActions.Controllers
 {
     //これはコメントです
     //commentcomment
+     //cfadfassfdfd
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
