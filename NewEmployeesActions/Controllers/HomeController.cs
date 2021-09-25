@@ -14,7 +14,7 @@ namespace NewEmployeesActions.Controllers
         private readonly ILogger<HomeController> _logger;
 
         //コミットテストとプッシュテスト
-
+        //ojpsdorjpoerjpojadopirjgeorjap:ogje
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
