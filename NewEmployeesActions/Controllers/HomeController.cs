@@ -9,15 +9,11 @@ using NewEmployeesActions.Models;
 
 namespace NewEmployeesActions.Controllers
 {
-    //これはコメントです
-    //commentcomment
-     //cfadfassfdfd
+    //コミットテスト完了
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        //コミットテストとプッシュテスト
-        //ojpsdorjpoerjpojadopirjgeorjap:ogje
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
